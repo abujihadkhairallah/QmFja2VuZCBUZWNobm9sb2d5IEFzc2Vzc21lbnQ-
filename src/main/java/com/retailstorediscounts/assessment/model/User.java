@@ -12,5 +12,9 @@ public class User {
     private Long id;
     private UserType type;
     private LocalDate createdDate;
+
+    public User(UserType type) {
+        this.type = type;
+    }
 }
 

@@ -5,6 +5,13 @@ import java.util.List;
 
 @Data
 public class Bill {
-    private List<BillItems> items;
+
+    private List<BillItem> items;
+
+    public Bill(List<BillItem> asList) {
+        this.items = asList;
+    }
+
+    
 }
 
